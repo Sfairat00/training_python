@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Домашняя работа 1">
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Создание вспомогательных методов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
@@ -39,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591821414229</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Создание вспомогательных методов">
+      <created>1592471523977</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592471523977</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,32 +128,53 @@
     <MESSAGE value="Создан проект в PyCharm" />
     <MESSAGE value="Оптимизация теста" />
     <MESSAGE value="Домашняя работа 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашняя работа 1" />
+    <MESSAGE value="Создание вспомогательных методов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание вспомогательных методов" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1362" height="199" key="GridCell.Tab.0.bottom" timestamp="1591821493233">
+    <state width="1578" height="270" key="GridCell.Tab.0.bottom" timestamp="1592472621685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1362" height="199" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591821493233" />
-    <state width="1362" height="199" key="GridCell.Tab.0.center" timestamp="1591821493233">
+    <state width="1578" height="270" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
+    <state width="1578" height="270" key="GridCell.Tab.0.center" timestamp="1592472621685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1362" height="199" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591821493233" />
-    <state width="1362" height="199" key="GridCell.Tab.0.left" timestamp="1591821493233">
+    <state width="1578" height="270" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
+    <state width="1578" height="270" key="GridCell.Tab.0.left" timestamp="1592472621684">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1362" height="199" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591821493233" />
-    <state width="1362" height="199" key="GridCell.Tab.0.right" timestamp="1591821493233">
+    <state width="1578" height="270" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592472621684" />
+    <state width="1578" height="270" key="GridCell.Tab.0.right" timestamp="1592472621685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1362" height="199" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591821493233" />
-    <state x="276" y="69" key="SettingsEditor" timestamp="1591821363104">
+    <state width="1578" height="270" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
+    <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1592472621685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1591821363104" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1591821428145">
+    <state width="1578" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
+    <state width="1578" height="270" key="GridCell.Tab.1.center" timestamp="1592472621685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591821428145" />
+    <state width="1578" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
+    <state width="1578" height="270" key="GridCell.Tab.1.left" timestamp="1592472621685">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
+    <state width="1578" height="270" key="GridCell.Tab.1.right" timestamp="1592472621685">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
+    <state x="276" y="69" key="SettingsEditor" timestamp="1592471858227">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592471858227" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592471627290">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592471627290" />
+    <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog" timestamp="1592473188762">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1592473188762" />
   </component>
 </project>
