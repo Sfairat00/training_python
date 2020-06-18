@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Передача параметров в методы">
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="ДЗ 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest in test_add_contact.py">
     <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="training_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,8 +65,25 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_add_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="training_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_contact.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.Unittests in test_add_group.py" />
       </list>
     </recent_temporary>
@@ -125,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592474036905</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ДЗ 2">
+      <created>1592475541866</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592475541866</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,25 +170,26 @@
     <MESSAGE value="Домашняя работа 1" />
     <MESSAGE value="Создание вспомогательных методов" />
     <MESSAGE value="Передача параметров в методы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Передача параметров в методы" />
+    <MESSAGE value="ДЗ 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1578" height="252" key="GridCell.Tab.0.bottom" timestamp="1592475368674">
+    <state width="1578" height="252" key="GridCell.Tab.0.bottom" timestamp="1592477352021">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="252" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592475368674" />
-    <state width="1578" height="252" key="GridCell.Tab.0.center" timestamp="1592475368674">
+    <state width="1578" height="252" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592477352021" />
+    <state width="1578" height="252" key="GridCell.Tab.0.center" timestamp="1592477352021">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="252" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592475368674" />
-    <state width="1578" height="252" key="GridCell.Tab.0.left" timestamp="1592475368674">
+    <state width="1578" height="252" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592477352021" />
+    <state width="1578" height="252" key="GridCell.Tab.0.left" timestamp="1592477352021">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="252" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592475368674" />
-    <state width="1578" height="252" key="GridCell.Tab.0.right" timestamp="1592475368674">
+    <state width="1578" height="252" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592477352021" />
+    <state width="1578" height="252" key="GridCell.Tab.0.right" timestamp="1592477352021">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="252" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592475368674" />
+    <state width="1578" height="252" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592477352021" />
     <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1592472621685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -182,17 +206,28 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1578" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
-    <state x="276" y="69" key="SettingsEditor" timestamp="1592471858227">
+    <state x="276" y="69" key="SettingsEditor" timestamp="1592477652134">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592471858227" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592474255506">
+    <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592477652134" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592475554748">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592474255506" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592475554748" />
     <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog" timestamp="1592473873164">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1592473873164" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_add_contact.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
