@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Улучшение читаемости теста">
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Раскидали WD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592510027518</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Раскидали WD">
+      <created>1592511094451</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1592511094451</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,25 +249,26 @@
     <MESSAGE value="ДЗ 3" />
     <MESSAGE value="ДЗ 3 актуально" />
     <MESSAGE value="Улучшение читаемости теста" />
-    <option name="LAST_COMMIT_MESSAGE" value="Улучшение читаемости теста" />
+    <MESSAGE value="Раскидали WD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Раскидали WD" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1578" height="252" key="GridCell.Tab.0.bottom" timestamp="1592510699587">
+    <state width="1578" height="252" key="GridCell.Tab.0.bottom" timestamp="1592510986216">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="252" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592510699587" />
-    <state width="1578" height="252" key="GridCell.Tab.0.center" timestamp="1592510699586">
+    <state width="1578" height="252" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592510986216" />
+    <state width="1578" height="252" key="GridCell.Tab.0.center" timestamp="1592510986216">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="252" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592510699586" />
-    <state width="1578" height="252" key="GridCell.Tab.0.left" timestamp="1592510699586">
+    <state width="1578" height="252" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592510986216" />
+    <state width="1578" height="252" key="GridCell.Tab.0.left" timestamp="1592510986216">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="252" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592510699586" />
-    <state width="1578" height="252" key="GridCell.Tab.0.right" timestamp="1592510699586">
+    <state width="1578" height="252" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592510986216" />
+    <state width="1578" height="252" key="GridCell.Tab.0.right" timestamp="1592510986216">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="252" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592510699586" />
+    <state width="1578" height="252" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592510986216" />
     <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1592472621685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
