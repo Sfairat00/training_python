@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Создание вспомогательных методов">
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Передача параметров в методы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
@@ -28,10 +28,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1d8uKUvpRrUd4pnKrRJI4HK2wi8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -108,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592471523977</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Передача параметров в методы">
+      <created>1592474036905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592474036905</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,25 +146,26 @@
     <MESSAGE value="Оптимизация теста" />
     <MESSAGE value="Домашняя работа 1" />
     <MESSAGE value="Создание вспомогательных методов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание вспомогательных методов" />
+    <MESSAGE value="Передача параметров в методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Передача параметров в методы" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1578" height="270" key="GridCell.Tab.0.bottom" timestamp="1592472621685">
+    <state width="1578" height="252" key="GridCell.Tab.0.bottom" timestamp="1592475368674">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="270" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
-    <state width="1578" height="270" key="GridCell.Tab.0.center" timestamp="1592472621685">
+    <state width="1578" height="252" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592475368674" />
+    <state width="1578" height="252" key="GridCell.Tab.0.center" timestamp="1592475368674">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="270" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
-    <state width="1578" height="270" key="GridCell.Tab.0.left" timestamp="1592472621684">
+    <state width="1578" height="252" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592475368674" />
+    <state width="1578" height="252" key="GridCell.Tab.0.left" timestamp="1592475368674">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="270" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592472621684" />
-    <state width="1578" height="270" key="GridCell.Tab.0.right" timestamp="1592472621685">
+    <state width="1578" height="252" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592475368674" />
+    <state width="1578" height="252" key="GridCell.Tab.0.right" timestamp="1592475368674">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="270" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592472621685" />
+    <state width="1578" height="252" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592475368674" />
     <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1592472621685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -168,13 +186,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592471858227" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592471627290">
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592474255506">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592471627290" />
-    <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog" timestamp="1592473188762">
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592474255506" />
+    <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog" timestamp="1592473873164">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1592473188762" />
+    <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1592473873164" />
   </component>
 </project>
