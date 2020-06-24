@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Выделена фикстура осуществелен переход на pytest">
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Созданы пакеты для разных зон ответственности">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\training_python\test" />
+      <recent name="C:\PycharmProjects\training_python\fixture" />
+      <recent name="C:\PycharmProjects\training_python\model" />
+    </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest for test.test_add_group">
     <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -305,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592987313313</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Созданы пакеты для разных зон ответственности">
+      <created>1592987793523</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1592987793523</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +354,8 @@
     <MESSAGE value="Доработка 4 ДЗ (добавил класс" />
     <MESSAGE value="Доработка 4 ДЗ (доработанный материал)" />
     <MESSAGE value="Выделена фикстура осуществелен переход на pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выделена фикстура осуществелен переход на pytest" />
+    <MESSAGE value="Созданы пакеты для разных зон ответственности" />
+    <option name="LAST_COMMIT_MESSAGE" value="Созданы пакеты для разных зон ответственности" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="30" key="#Unittests_in_test_add_group.py" timestamp="1592512655795">
@@ -389,10 +402,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592986874552" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592987324422">
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592987802600">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592987324422" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592987802600" />
     <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog" timestamp="1592491083416">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
