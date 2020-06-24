@@ -19,10 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Выделили вспомогательный класс SessionContactHelper">
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="ДЗ 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application_contact.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session_contact.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/profile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +99,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="training_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_add_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="training_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,9 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
+        <item itemvalue="Python tests.pytest in test" />
         <item itemvalue="Python tests.pytest for test.test_add_group" />
-        <item itemvalue="Python tests.pytest in training_python" />
         <item itemvalue="Python tests.Unittests in test_add_group.py" />
+        <item itemvalue="Python tests.pytest in training_python" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592990830588</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Выделили вспомогательный класс ProfileContactHelper">
+      <created>1592991714552</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1592991714552</updated>
+    </task>
+    <task id="LOCAL-00032" summary="ДЗ 5">
+      <created>1592991839993</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1592991839993</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,8 +408,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создан проект в PyCharm" />
-    <MESSAGE value="Оптимизация теста" />
     <MESSAGE value="Домашняя работа 1" />
     <MESSAGE value="Создание вспомогательных методов" />
     <MESSAGE value="Передача параметров в методы" />
@@ -394,29 +431,35 @@
     <MESSAGE value="Выделили вспомогательный класс GroupHelper" />
     <MESSAGE value="Разнесли тест по папкам" />
     <MESSAGE value="Выделили вспомогательный класс SessionContactHelper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выделили вспомогательный класс SessionContactHelper" />
+    <MESSAGE value="Выделили вспомогательный класс ProfileContactHelper" />
+    <MESSAGE value="ДЗ 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="30" key="#Unittests_in_test_add_group.py" timestamp="1592512655795">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="509" y="30" key="#Unittests_in_test_add_group.py/0.0.1600.860@0.0.1600.860" timestamp="1592512655795" />
-    <state width="1578" height="147" key="GridCell.Tab.0.bottom" timestamp="1592991641823">
+    <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593003494818">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592991641823" />
-    <state width="1578" height="147" key="GridCell.Tab.0.center" timestamp="1592991641823">
+    <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1593003494818" />
+    <state width="1578" height="147" key="GridCell.Tab.0.bottom" timestamp="1593007079778">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592991641823" />
-    <state width="1578" height="147" key="GridCell.Tab.0.left" timestamp="1592991641822">
+    <state width="1578" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593007079778" />
+    <state width="1578" height="147" key="GridCell.Tab.0.center" timestamp="1593007079778">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592991641822" />
-    <state width="1578" height="147" key="GridCell.Tab.0.right" timestamp="1592991641823">
+    <state width="1578" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1593007079778" />
+    <state width="1578" height="147" key="GridCell.Tab.0.left" timestamp="1593007079778">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592991641823" />
+    <state width="1578" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1593007079778" />
+    <state width="1578" height="147" key="GridCell.Tab.0.right" timestamp="1593007079778">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1593007079778" />
     <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1592986660831">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -441,10 +484,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592986874552" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592990837842">
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592991850667">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592990837842" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592991850667" />
+    <state x="508" y="217" key="git4idea.merge.GitPullDialog" timestamp="1593005884578">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="508" y="217" key="git4idea.merge.GitPullDialog/0.0.1600.860@0.0.1600.860" timestamp="1593005884578" />
     <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog" timestamp="1592491083416">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

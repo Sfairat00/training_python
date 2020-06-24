@@ -11,4 +11,3 @@ class Profile:
         self.bmonth = bmonth
         self.byear = byear
         self.address2 = address2
-

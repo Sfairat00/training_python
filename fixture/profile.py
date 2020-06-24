@@ -1,22 +1,24 @@
 
 
-class ProfileContactHelper:
+class ProfileHelper:
 
     def __init__(self, app):
         self.app = app
 
     def return_home_page(self):
         wd = self.app.wd
+        self.return_home_page()
         wd.find_element_by_link_text("home page").click()
 
     def contact_creation(self):
         wd = self.app.wd
         self.contact_creation()
-        self.return_home_page()
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
 
-    def create(self, profile):
+
+    def create_contact(self, profile):
         wd = self.app.wd
+        wd.find_element_by_link_text("add new").click()
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
         wd.find_element_by_name("firstname").send_keys(profile.firstname)
@@ -47,5 +49,7 @@ class ProfileContactHelper:
         wd.find_element_by_name("address2").click()
         wd.find_element_by_name("address2").clear()
         wd.find_element_by_name("address2").send_keys(profile.address2)
+
+
 
 
