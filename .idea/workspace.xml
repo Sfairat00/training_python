@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Доработка 4 ДЗ (доработанный материал)">
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Выделена фикстура осуществелен переход на pytest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_group">
+  <component name="RunManager" selected="Python tests.pytest for test.test_add_group">
     <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="training_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,11 +65,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="training_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +81,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group&quot;" />
+      <option name="_new_target" value="&quot;test.test_add_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -116,7 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_add_group" />
+        <item itemvalue="Python tests.pytest for test.test_add_group" />
         <item itemvalue="Python tests.pytest in training_python" />
         <item itemvalue="Python tests.Unittests in test_add_group.py" />
         <item itemvalue="Python tests.pytest in test_add_contact.py" />
@@ -295,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592985062110</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Выделена фикстура осуществелен переход на pytest">
+      <created>1592987313313</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1592987313313</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,29 +341,30 @@
     <MESSAGE value="Доработка 4 ДЗ" />
     <MESSAGE value="Доработка 4 ДЗ (добавил класс" />
     <MESSAGE value="Доработка 4 ДЗ (доработанный материал)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Доработка 4 ДЗ (доработанный материал)" />
+    <MESSAGE value="Выделена фикстура осуществелен переход на pytest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выделена фикстура осуществелен переход на pytest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="30" key="#Unittests_in_test_add_group.py" timestamp="1592512655795">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="509" y="30" key="#Unittests_in_test_add_group.py/0.0.1600.860@0.0.1600.860" timestamp="1592512655795" />
-    <state width="1578" height="147" key="GridCell.Tab.0.bottom" timestamp="1592986973171">
+    <state width="1578" height="147" key="GridCell.Tab.0.bottom" timestamp="1592987113874">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592986973171" />
-    <state width="1578" height="147" key="GridCell.Tab.0.center" timestamp="1592986973170">
+    <state width="1578" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592987113874" />
+    <state width="1578" height="147" key="GridCell.Tab.0.center" timestamp="1592987113874">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592986973170" />
-    <state width="1578" height="147" key="GridCell.Tab.0.left" timestamp="1592986973170">
+    <state width="1578" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592987113874" />
+    <state width="1578" height="147" key="GridCell.Tab.0.left" timestamp="1592987113874">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592986973170" />
-    <state width="1578" height="147" key="GridCell.Tab.0.right" timestamp="1592986973170">
+    <state width="1578" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592987113874" />
+    <state width="1578" height="147" key="GridCell.Tab.0.right" timestamp="1592987113874">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592986973170" />
+    <state width="1578" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592987113874" />
     <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1592986660831">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -378,10 +389,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592986874552" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592985072153">
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592987324422">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592985072153" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592987324422" />
     <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog" timestamp="1592491083416">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
