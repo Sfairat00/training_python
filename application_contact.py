@@ -1,7 +1,6 @@
 from selenium import webdriver
 
 class Application_contact:
-
     def __init__(self):
         self.wd = webdriver.Firefox()
         self.wd.implicitly_wait(30)
@@ -41,10 +40,10 @@ class Application_contact:
         wd.find_element_by_name("email").clear()
         wd.find_element_by_name("email").send_keys(profile.email)
         wd.find_element_by_name("bday").click()
-        Select(wd.find_element_by_name("bday")).select_by_visible_text(profile.bday)
+        wd.find_element_by_name("bday").send_keys(profile.bday)
         wd.find_element_by_name("bday").click()
         wd.find_element_by_name("bmonth").click()
-        Select(wd.find_element_by_name("bmonth")).select_by_visible_text(profile.bmonth)
+        wd.find_element_by_name("bmonth").send_keys(profile.bmonth)
         wd.find_element_by_name("bmonth").click()
         wd.find_element_by_name("byear").click()
         wd.find_element_by_name("byear").clear()
