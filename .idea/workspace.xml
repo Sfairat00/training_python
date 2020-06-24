@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Выделили вспомогательный класс GroupHelper">
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="Разнесли тест по папкам">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application_contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592989478396</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Разнесли тест по папкам">
+      <created>1592989814265</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1592989814265</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,29 +386,30 @@
     <MESSAGE value="Созданы пакеты для разных зон ответственности" />
     <MESSAGE value="Выделили вспомогательный класс SessionHelper" />
     <MESSAGE value="Выделили вспомогательный класс GroupHelper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выделили вспомогательный класс GroupHelper" />
+    <MESSAGE value="Разнесли тест по папкам" />
+    <option name="LAST_COMMIT_MESSAGE" value="Разнесли тест по папкам" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="30" key="#Unittests_in_test_add_group.py" timestamp="1592512655795">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="509" y="30" key="#Unittests_in_test_add_group.py/0.0.1600.860@0.0.1600.860" timestamp="1592512655795" />
-    <state width="1578" height="147" key="GridCell.Tab.0.bottom" timestamp="1592989703538">
+    <state width="1578" height="147" key="GridCell.Tab.0.bottom" timestamp="1592990712896">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592989703538" />
-    <state width="1578" height="147" key="GridCell.Tab.0.center" timestamp="1592989703538">
+    <state width="1578" height="147" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592990712896" />
+    <state width="1578" height="147" key="GridCell.Tab.0.center" timestamp="1592990712896">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592989703538" />
-    <state width="1578" height="147" key="GridCell.Tab.0.left" timestamp="1592989703538">
+    <state width="1578" height="147" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592990712896" />
+    <state width="1578" height="147" key="GridCell.Tab.0.left" timestamp="1592990712896">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592989703538" />
-    <state width="1578" height="147" key="GridCell.Tab.0.right" timestamp="1592989703538">
+    <state width="1578" height="147" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592990712896" />
+    <state width="1578" height="147" key="GridCell.Tab.0.right" timestamp="1592990712896">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592989703538" />
+    <state width="1578" height="147" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592990712896" />
     <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1592986660831">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -427,10 +434,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592986874552" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592989484626">
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592989823758">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592989484626" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592989823758" />
     <state x="494" y="135" width="675" height="523" key="refactoring.ChangeSignatureDialog" timestamp="1592491083416">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

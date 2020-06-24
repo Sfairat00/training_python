@@ -12,8 +12,8 @@ def app(request):
 
 
 def test_add_contact(app):
-    app.login(username="admin", password="secret")
+    app.session_contact.login(username="admin", password="secret")
     app.init_form_contact(Profile(firstname="Saimon", lastname="Ozhereliev", nickname="Sfai", address="Moscow", mobile="916 176-66-66", email="s.ojereliew@yandex.ru",
                                bday="18", bmonth="April", byear="1986", address2="Moscow city"))
-    app.logout()
+    app.session_contact.logout()
 
