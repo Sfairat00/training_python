@@ -16,4 +16,3 @@ class Application_contact:
     def destroy(self):
         self.wd.quit()
 
-
