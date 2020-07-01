@@ -51,5 +51,17 @@ class ProfileHelper:
         wd.find_element_by_name("address2").send_keys(profile.address2)
 
 
+    def delete_first_contact(self):
+        wd = self.app.wd
+        # select first contact
+        wd.find_element_by_name("selected[]").click()
+        # submit deletion
+        wd.find_element_by_xpath("//input[@value='Delete']").click()
+        wd.switch_to_alert().accept()
+
+
+
+
+
 
 
