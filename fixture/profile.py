@@ -18,7 +18,16 @@ class ProfileHelper:
 
     def create_contact(self, profile):
         wd = self.app.wd
-        wd.find_element_by_link_text("add new").click()
+        self.open_new_conttact()
+        self.fill_new_contact(profile)
+        self.save_new_contact()
+
+    def save_new_contact(self):
+        wd = self.app.wd
+        wd.find_element_by_name("submit").click()
+
+    def fill_new_contact(self, profile):
+        wd = self.app.wd
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
         wd.find_element_by_name("firstname").send_keys(profile.firstname)
@@ -49,9 +58,10 @@ class ProfileHelper:
         wd.find_element_by_name("address2").click()
         wd.find_element_by_name("address2").clear()
         wd.find_element_by_name("address2").send_keys(profile.address2)
-        wd.find_element_by_name("submit").click()
 
-
+    def open_new_conttact(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("add new").click()
 
     def delete_first_contact(self):
         wd = self.app.wd
