@@ -49,6 +49,8 @@ class ProfileHelper:
         wd.find_element_by_name("address2").click()
         wd.find_element_by_name("address2").clear()
         wd.find_element_by_name("address2").send_keys(profile.address2)
+        wd.find_element_by_name("submit").click()
+
 
 
     def delete_first_contact(self):
