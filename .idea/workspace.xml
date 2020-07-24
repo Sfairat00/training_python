@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="ДЗ 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../env/Scripts" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,7 +59,7 @@
       <recent name="C:\PycharmProjects\training_python\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_contact.test_add_contact">
+  <component name="RunManager" selected="Python tests.pytest for test_add_group.test_add_group">
     <configuration name="pytest for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="training_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,6 +73,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add_contact.test_add_contact&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_add_group.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="training_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_group.test_add_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -92,7 +108,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_modify_group.test_modify_group_header" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="training_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,24 +120,8 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_modify_group.test_modify_group_header&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_modify_group.test_modify_group_name" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="training_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_modify_group.test_modify_group_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_del_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
         <item itemvalue="Python tests.pytest for test_del_group.test_delete_first_group" />
         <item itemvalue="Python tests.pytest in test_del_group.py" />
-        <item itemvalue="Python tests.pytest for test_modify_group.test_modify_group_header" />
-        <item itemvalue="Python tests.pytest for test_modify_group.test_modify_group_name" />
       </list>
     </recent_temporary>
   </component>
@@ -503,6 +503,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="87" width="816" height="733" key="#Intentions/0.0.1600.860@0.0.1600.860" timestamp="1593629981689" />
+    <state x="606" y="328" key="#Notifications" timestamp="1595596072583">
+      <screen x="0" y="0" width="1440" height="929" />
+    </state>
+    <state x="606" y="328" key="#Notifications/0.0.1440.929@0.0.1440.929" timestamp="1595596072583" />
     <state x="509" y="30" key="#Unittests_in_test_add_group.py" timestamp="1592512655795">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -511,21 +515,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1593003494818" />
-    <state width="1578" height="293" key="GridCell.Tab.0.bottom" timestamp="1594579412837">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="526" y="204" key="FileChooserDialogImpl" timestamp="1595596596991">
+      <screen x="0" y="0" width="1440" height="929" />
     </state>
+    <state x="526" y="204" key="FileChooserDialogImpl/0.0.1440.929@0.0.1440.929" timestamp="1595596596991" />
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1595596847792">
+      <screen x="0" y="0" width="1440" height="929" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.929@0.0.1440.929" timestamp="1595596847792" />
     <state width="1578" height="293" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594579412837" />
-    <state width="1578" height="293" key="GridCell.Tab.0.center" timestamp="1594579412837">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1595596847792">
+      <screen x="0" y="0" width="1440" height="929" />
     </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.929@0.0.1440.929" timestamp="1595596847792" />
     <state width="1578" height="293" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594579412837" />
-    <state width="1578" height="293" key="GridCell.Tab.0.left" timestamp="1594579412836">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1595596847792">
+      <screen x="0" y="0" width="1440" height="929" />
     </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.929@0.0.1440.929" timestamp="1595596847792" />
     <state width="1578" height="293" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594579412836" />
-    <state width="1578" height="293" key="GridCell.Tab.0.right" timestamp="1594579412837">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1595596847792">
+      <screen x="0" y="0" width="1440" height="929" />
     </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.929@0.0.1440.929" timestamp="1595596847792" />
     <state width="1578" height="293" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594579412837" />
     <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1593634270361">
       <screen x="0" y="0" width="1600" height="860" />
@@ -547,9 +559,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="617" y="131" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1594546442650" />
-    <state x="276" y="69" key="SettingsEditor" timestamp="1592986874552">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="248" y="75" key="SettingsEditor" timestamp="1595596936236">
+      <screen x="0" y="0" width="1440" height="929" />
     </state>
+    <state x="248" y="75" key="SettingsEditor/0.0.1440.929@0.0.1440.929" timestamp="1595596936236" />
     <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592986874552" />
     <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1594576970880">
       <screen x="0" y="0" width="1600" height="860" />
