@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="ДЗ 9">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="все переустановил" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -455,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594576959569</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="все переустановил">
+      <created>1595597054295</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1595597054295</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,7 +476,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Улучшение читаемости теста" />
     <MESSAGE value="Раскидали WD" />
     <MESSAGE value="Фикстура" />
     <MESSAGE value="ДЗ 4" />
@@ -496,7 +500,8 @@
     <MESSAGE value="дз 7 доработал. Добавил сохранение, создад вспомогательные методы" />
     <MESSAGE value="обеспечение предусловия для теста удаления групп" />
     <MESSAGE value="ДЗ 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ 9" />
+    <MESSAGE value="все переустановил" />
+    <option name="LAST_COMMIT_MESSAGE" value="все переустановил" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" width="816" height="733" key="#Intentions" timestamp="1593629981689">
@@ -519,25 +524,25 @@
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="526" y="204" key="FileChooserDialogImpl/0.0.1440.929@0.0.1440.929" timestamp="1595596596991" />
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1595596847792">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1595597154406">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.929@0.0.1440.929" timestamp="1595596847792" />
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.929@0.0.1440.929" timestamp="1595597154406" />
     <state width="1578" height="293" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594579412837" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1595596847792">
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1595597154406">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.929@0.0.1440.929" timestamp="1595596847792" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.929@0.0.1440.929" timestamp="1595597154406" />
     <state width="1578" height="293" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594579412837" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1595596847792">
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1595597154406">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.929@0.0.1440.929" timestamp="1595596847792" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.929@0.0.1440.929" timestamp="1595597154406" />
     <state width="1578" height="293" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594579412836" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1595596847792">
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1595597154406">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.929@0.0.1440.929" timestamp="1595596847792" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.929@0.0.1440.929" timestamp="1595597154406" />
     <state width="1578" height="293" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594579412837" />
     <state width="1578" height="270" key="GridCell.Tab.1.bottom" timestamp="1593634270361">
       <screen x="0" y="0" width="1600" height="860" />
@@ -564,9 +569,10 @@
     </state>
     <state x="248" y="75" key="SettingsEditor/0.0.1440.929@0.0.1440.929" timestamp="1595596936236" />
     <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592986874552" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1594576970880">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="330" y="184" key="Vcs.Push.Dialog.v2" timestamp="1595597066425">
+      <screen x="0" y="0" width="1440" height="929" />
     </state>
+    <state x="330" y="184" key="Vcs.Push.Dialog.v2/0.0.1440.929@0.0.1440.929" timestamp="1595597066425" />
     <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1594576970880" />
     <state x="508" y="217" key="git4idea.merge.GitPullDialog" timestamp="1593005884578">
       <screen x="0" y="0" width="1600" height="860" />
