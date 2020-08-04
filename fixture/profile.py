@@ -1,4 +1,4 @@
-
+from model.profile import Profile
 
 class ProfileHelper:
 
@@ -83,6 +83,20 @@ class ProfileHelper:
         wd = self.app.wd
         self.select_first_contact()
         return len(wd.find_elements_by_name("selected[]"))
+
+    def get_contact_list(self):
+        wd = self.app.wd
+        profile = []
+        for element in wd.find_elements_by_css_selector("td.center"):
+            id = element.find_element_by_name("selected[]").get_attribute("value")
+            profile.append(Profile(id=id))
+        return profile
+
+
+
+
+
+
 
 
 
