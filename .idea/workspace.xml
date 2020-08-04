@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="поменял на хром на новой машине и поправил адрес">
+    <list default="true" id="d0a34502-a1d8-411a-83e6-659b13dd24d5" name="Default Changelist" comment="добавил тест по модификации контакта">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_modify_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_modify_contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <recent name="C:\PycharmProjects\training_python\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_modify_contact.test_modify_contact_firstname">
+  <component name="RunManager" selected="Python tests.pytest for test_modify_contact.test_modify_contact_nickname">
     <configuration name="pytest for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="training_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,22 +75,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add_contact.test_add_contact&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_add_contact.test_add_empty_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="training_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_contact.test_add_empty_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -126,6 +110,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_modify_contact.test_modify_contact_nickname" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="training_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_modify_contact.test_modify_contact_nickname&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_modify_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="training_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_modify_contact.test_modify_contact_nickname" />
         <item itemvalue="Python tests.pytest for test_modify_contact.test_modify_contact_firstname" />
+        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
         <item itemvalue="Python tests.pytest for test_modify_contact.test_add_contact" />
         <item itemvalue="Python tests.pytest in test_modify_group.py" />
-        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
-        <item itemvalue="Python tests.pytest for test_add_contact.test_add_empty_contact" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595966322331</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="добавил тест по модификации контакта">
+      <created>1596543235947</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1596543235947</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -488,7 +495,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Фикстура" />
     <MESSAGE value="ДЗ 4" />
     <MESSAGE value="Доработка 4 ДЗ" />
     <MESSAGE value="Доработка 4 ДЗ (добавил класс" />
@@ -513,7 +519,8 @@
     <MESSAGE value="ДЗ 9" />
     <MESSAGE value="все переустановил" />
     <MESSAGE value="поменял на хром на новой машине и поправил адрес" />
-    <option name="LAST_COMMIT_MESSAGE" value="поменял на хром на новой машине и поправил адрес" />
+    <MESSAGE value="добавил тест по модификации контакта" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил тест по модификации контакта" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" width="816" height="733" key="#Intentions" timestamp="1593629981689">
@@ -544,45 +551,45 @@
       <screen x="0" y="0" width="1440" height="929" />
     </state>
     <state x="526" y="204" key="FileChooserDialogImpl/0.0.1440.929@0.0.1440.929" timestamp="1595949662716" />
-    <state width="1419" height="304" key="GridCell.Tab.0.bottom" timestamp="1596543040509">
+    <state width="1419" height="268" key="GridCell.Tab.0.bottom" timestamp="1596556204191">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.0.bottom/0.0.1440.929@0.0.1440.929" timestamp="1596543040509" />
+    <state width="1419" height="268" key="GridCell.Tab.0.bottom/0.0.1440.929@0.0.1440.929" timestamp="1596556204191" />
     <state width="1578" height="293" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594579412837" />
-    <state width="1419" height="304" key="GridCell.Tab.0.center" timestamp="1596543040509">
+    <state width="1419" height="268" key="GridCell.Tab.0.center" timestamp="1596556204175">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.0.center/0.0.1440.929@0.0.1440.929" timestamp="1596543040509" />
+    <state width="1419" height="268" key="GridCell.Tab.0.center/0.0.1440.929@0.0.1440.929" timestamp="1596556204175" />
     <state width="1578" height="293" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594579412837" />
-    <state width="1419" height="304" key="GridCell.Tab.0.left" timestamp="1596543040509">
+    <state width="1419" height="268" key="GridCell.Tab.0.left" timestamp="1596556204175">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.0.left/0.0.1440.929@0.0.1440.929" timestamp="1596543040509" />
+    <state width="1419" height="268" key="GridCell.Tab.0.left/0.0.1440.929@0.0.1440.929" timestamp="1596556204175" />
     <state width="1578" height="293" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594579412836" />
-    <state width="1419" height="304" key="GridCell.Tab.0.right" timestamp="1596543040509">
+    <state width="1419" height="268" key="GridCell.Tab.0.right" timestamp="1596556204175">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.0.right/0.0.1440.929@0.0.1440.929" timestamp="1596543040509" />
+    <state width="1419" height="268" key="GridCell.Tab.0.right/0.0.1440.929@0.0.1440.929" timestamp="1596556204175" />
     <state width="1578" height="293" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594579412837" />
-    <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1596543040509">
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1596543767246">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.0.1440.929@0.0.1440.929" timestamp="1596543040509" />
+    <state width="1419" height="304" key="GridCell.Tab.1.bottom/0.0.1440.929@0.0.1440.929" timestamp="1596543767246" />
     <state width="1578" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593634270361" />
-    <state width="1419" height="304" key="GridCell.Tab.1.center" timestamp="1596543040509">
+    <state width="1419" height="304" key="GridCell.Tab.1.center" timestamp="1596543767246">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.1.center/0.0.1440.929@0.0.1440.929" timestamp="1596543040509" />
+    <state width="1419" height="304" key="GridCell.Tab.1.center/0.0.1440.929@0.0.1440.929" timestamp="1596543767246" />
     <state width="1578" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1593634270361" />
-    <state width="1419" height="304" key="GridCell.Tab.1.left" timestamp="1596543040509">
+    <state width="1419" height="304" key="GridCell.Tab.1.left" timestamp="1596543767246">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.1.left/0.0.1440.929@0.0.1440.929" timestamp="1596543040509" />
+    <state width="1419" height="304" key="GridCell.Tab.1.left/0.0.1440.929@0.0.1440.929" timestamp="1596543767246" />
     <state width="1578" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1593634270361" />
-    <state width="1419" height="304" key="GridCell.Tab.1.right" timestamp="1596543040509">
+    <state width="1419" height="304" key="GridCell.Tab.1.right" timestamp="1596543767246">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state width="1419" height="304" key="GridCell.Tab.1.right/0.0.1440.929@0.0.1440.929" timestamp="1596543040509" />
+    <state width="1419" height="304" key="GridCell.Tab.1.right/0.0.1440.929@0.0.1440.929" timestamp="1596543767246" />
     <state width="1578" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1593634270361" />
     <state x="555" y="142" key="RollbackChangesDialog" timestamp="1596540177167">
       <screen x="0" y="0" width="1440" height="929" />
@@ -594,10 +601,10 @@
     </state>
     <state x="248" y="75" key="SettingsEditor/0.0.1440.929@0.0.1440.929" timestamp="1595951348999" />
     <state x="276" y="69" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592986874552" />
-    <state x="330" y="184" key="Vcs.Push.Dialog.v2" timestamp="1595966335988">
+    <state x="330" y="184" key="Vcs.Push.Dialog.v2" timestamp="1596543254794">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state x="330" y="184" key="Vcs.Push.Dialog.v2/0.0.1440.929@0.0.1440.929" timestamp="1595966335988" />
+    <state x="330" y="184" key="Vcs.Push.Dialog.v2/0.0.1440.929@0.0.1440.929" timestamp="1596543254794" />
     <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1594576970880" />
     <state x="508" y="217" key="git4idea.merge.GitPullDialog" timestamp="1593005884578">
       <screen x="0" y="0" width="1600" height="860" />
