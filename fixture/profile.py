@@ -7,8 +7,8 @@ class ProfileHelper:
 
     def return_home_page(self):
         wd = self.app.wd
-        self.return_home_page()
-        wd.find_element_by_link_text("home page").click()
+        if not (wd.current_url.endswith("/edit.php") and len(wd.find_elements_by_link_text("home page")) > 0):
+            wd.find_element_by_link_text("home page").click()
 
     def contact_creation(self):
         wd = self.app.wd
