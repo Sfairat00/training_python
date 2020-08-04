@@ -1,6 +1,6 @@
 
 class Profile:
-    def __init__(self, firstname, lastname, nickname, address, mobile, email, bday, bmonth, byear, address2):
+    def __init__(self, firstname=None, lastname=None, nickname=None, address=None, mobile=None, email=None, bday=None, bmonth=None, byear=None, address2=None):
         self.firstname = firstname
         self.lastname = lastname
         self.nickname = nickname

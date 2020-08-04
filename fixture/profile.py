@@ -28,36 +28,30 @@ class ProfileHelper:
 
     def fill_new_contact(self, profile):
         wd = self.app.wd
-        wd.find_element_by_name("firstname").click()
-        wd.find_element_by_name("firstname").clear()
-        wd.find_element_by_name("firstname").send_keys(profile.firstname)
-        wd.find_element_by_name("lastname").click()
-        wd.find_element_by_name("lastname").clear()
-        wd.find_element_by_name("lastname").send_keys(profile.lastname)
-        wd.find_element_by_name("nickname").click()
-        wd.find_element_by_name("nickname").clear()
-        wd.find_element_by_name("nickname").send_keys(profile.nickname)
-        wd.find_element_by_name("address").click()
-        wd.find_element_by_name("address").clear()
-        wd.find_element_by_name("address").send_keys(profile.address)
-        wd.find_element_by_name("mobile").click()
-        wd.find_element_by_name("mobile").clear()
-        wd.find_element_by_name("mobile").send_keys(profile.mobile)
-        wd.find_element_by_name("email").click()
-        wd.find_element_by_name("email").clear()
-        wd.find_element_by_name("email").send_keys(profile.email)
-        wd.find_element_by_name("bday").click()
-        wd.find_element_by_name("bday").send_keys(profile.bday)
-        wd.find_element_by_name("bday").click()
-        wd.find_element_by_name("bmonth").click()
-        wd.find_element_by_name("bmonth").send_keys(profile.bmonth)
-        wd.find_element_by_name("bmonth").click()
-        wd.find_element_by_name("byear").click()
-        wd.find_element_by_name("byear").clear()
-        wd.find_element_by_name("byear").send_keys(profile.byear)
-        wd.find_element_by_name("address2").click()
-        wd.find_element_by_name("address2").clear()
-        wd.find_element_by_name("address2").send_keys(profile.address2)
+        self.change_field_value("firstname", profile.firstname)
+        self.change_field_value("lastname", profile.lastname)
+        self.change_field_value("nickname", profile.nickname)
+        self.change_field_value("address", profile.address)
+        self.change_field_value("mobile", profile.mobile)
+        self.change_field_value("email", profile.email)
+        self.change_field_date("bday", profile.bday)
+        self.change_field_date("bmonth", profile.bmonth)
+        self.change_field_value("byear", profile.byear)
+        self.change_field_value("address2", profile.address2)
+
+    def change_field_date(self, field_data, text):
+        wd = self.app.wd
+        if text is not None:
+            wd.find_element_by_name(field_data).click()
+            wd.find_element_by_name(field_data).send_keys(text)
+            wd.find_element_by_name(field_data).click()
+
+    def change_field_value(self, field_name, text):
+        wd = self.app.wd
+        if text is not None:
+            wd.find_element_by_name(field_name).click()
+            wd.find_element_by_name(field_name).clear()
+            wd.find_element_by_name(field_name).send_keys(text)
 
     def open_new_conttact(self):
         wd = self.app.wd
@@ -66,11 +60,28 @@ class ProfileHelper:
 
     def delete_first_contact(self):
         wd = self.app.wd
-        # select first contact
-        wd.find_element_by_name("selected[]").click()
+        self.select_first_contact()
         # submit deletion
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
+
+    def select_first_contact(self):
+        wd = self.app.wd
+        wd.find_element_by_name("selected[]").click()
+
+    def modify_first_contact(self, new_contact_data):
+        wd = self.app.wd
+        self.select_first_contact()
+        #open modification form
+        wd.find_element_by_xpath("//img[@alt='Edit']").click()
+        #fill form
+        self.fill_new_contact(new_contact_data)
+        #submit modification
+        wd.find_element_by_name("update").click()
+        self.return_home_page()
+
+
+
 
 
 
