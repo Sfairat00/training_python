@@ -5,10 +5,6 @@ class ProfileHelper:
     def __init__(self, app):
         self.app = app
 
-    def return_home_page(self):
-        wd = self.app.wd
-        if not (wd.current_url.endswith("/edit.php") and len(wd.find_elements_by_link_text("home page")) > 0):
-            wd.find_element_by_link_text("home page").click()
 
     def contact_creation(self):
         wd = self.app.wd
@@ -21,6 +17,8 @@ class ProfileHelper:
         self.open_new_conttact()
         self.fill_new_contact(profile)
         self.save_new_contact()
+        self.return_home_page()
+
 
     def save_new_contact(self):
         wd = self.app.wd
@@ -78,6 +76,7 @@ class ProfileHelper:
         self.fill_new_contact(new_contact_data)
         #submit modification
         wd.find_element_by_name("update").click()
+        self.return_home_page()
 
     def count(self):
         wd = self.app.wd
@@ -87,10 +86,18 @@ class ProfileHelper:
     def get_contact_list(self):
         wd = self.app.wd
         profile = []
-        for element in wd.find_elements_by_css_selector("td.center"):
+        for element in wd.find_elements_by_name("entry"):
+            text = element.text
             id = element.find_element_by_name("selected[]").get_attribute("value")
-            profile.append(Profile(id=id))
+            profile.append(Profile(firstname=text, id=id))
         return profile
+
+    def return_home_page(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("home page").click()
+
+
+
 
 
 
