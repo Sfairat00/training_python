@@ -18,6 +18,7 @@ class ProfileHelper:
         self.fill_new_contact(profile)
         self.save_new_contact()
         self.return_home_page()
+        self.profile_cache = None
 
 
     def save_new_contact(self):
@@ -62,6 +63,8 @@ class ProfileHelper:
         # submit deletion
         wd.find_element_by_xpath("//input[@value='Delete']").click()
         wd.switch_to_alert().accept()
+        self.profile_cache = None
+
 
     def select_first_contact(self):
         wd = self.app.wd
@@ -77,20 +80,26 @@ class ProfileHelper:
         #submit modification
         wd.find_element_by_name("update").click()
         self.return_home_page()
+        self.profile_cache = None
+
 
     def count(self):
         wd = self.app.wd
         self.select_first_contact()
         return len(wd.find_elements_by_name("selected[]"))
 
+    profile_cache = None
+
+
     def get_contact_list(self):
-        wd = self.app.wd
-        profile = []
-        for element in wd.find_elements_by_name("entry"):
-            text = element.text
-            id = element.find_element_by_name("selected[]").get_attribute("value")
-            profile.append(Profile(firstname=text, id=id))
-        return profile
+        if self.profile_cache is None:
+            wd = self.app.wd
+            self.profile_cache = []
+            for element in wd.find_elements_by_name("entry"):
+                text = element.text
+                id = element.find_element_by_name("selected[]").get_attribute("value")
+                self.profile_cache.append(Profile(firstname=text, id=id))
+        return list(self.profile_cache)
 
     def return_home_page(self):
         wd = self.app.wd
